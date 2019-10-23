@@ -1,0 +1,41 @@
+WH_ID,Item_Name,Item_id,Quantity_Available,Quantity_Requested,Backlog
+WH8,Mechanically Separated,100,3365,3615,-250
+WH5,"Shelf-Stable, Pathogen Negative Meat Slurry",104,8489,8085,0
+WH5,Mechanically Separated,100,9213,9478,-265
+WH7,Poultry Fat,105,1759,1992,-233
+WH2,Chicken Meal,107,8575,9025,-450
+WH4,Poultry By-Product Meal,103,3800,2839,0
+WH3,Poultry By-Product Meal,103,6126,5951,0
+WH7,Chicken By-Product Meal,102,5985,5245,0
+WH3,Chicken Meal,107,6713,7169,-456
+WH8,Poultry By-Product Meal,103,3718,3108,0
+WH7,Chicken Meal,107,8922,9400,-478
+WH1,Chicken Meal,107,6209,6554,-345
+WH1,"Shelf-Stable, Pathogen Negative Meat Slurry",104,2960,2691,0
+WH4,Chicken Meal,107,6391,6929,-538
+WH6,Mechanically Separated,100,2650,3301,-651
+WH6,Chicken Fat,106,4164,3713,0
+WH6,Chicken Fat,106,1268,866,0
+WH5,Chicken By-Product Meal,102,6930,6418,0
+WH3,Whole Ground,101,4119,4711,-592
+WH8,Chicken Meal,107,4952,5590,-638
+WH4,Chicken Fat,106,3458,3144,0
+WH8,Mechanically Separated,100,4737,5285,-548
+WH6,"Shelf-Stable, Pathogen Negative Meat Slurry",104,9173,8548,0
+WH3,Chicken By-Product Meal,102,6998,6039,0
+WH2,Mechanically Separated,100,5842,6508,-666
+WH7,Chicken Fat,106,4389,4063,0
+WH4,Poultry Fat,105,1692,2148,-456
+WH3,Chicken Fat,106,4554,3715,0
+WH2,Chicken By-Product Meal,102,6043,5373,0
+WH3,Whole Ground,101,3089,3434,-345
+WH3,Chicken Fat,106,3197,2637,0
+WH5,Whole Ground,101,6909,7191,-282
+WH3,Whole Ground,101,7176,7653,-477
+WH4,Chicken By-Product Meal,102,2078,2342,-264
+WH1,Poultry By-Product Meal,103,8689,8939,-250
+WH7,Whole Ground,101,5733,6231,-498
+WH3,Chicken By-Product Meal,102,8650,8915,-265
+WH3,Poultry Fat,105,4329,4746,-417
+WH2,Whole Ground,101,7780,8112,-332
+WH6,Whole Ground,101,6865,7140,-275
