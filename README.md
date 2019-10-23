@@ -1,6 +1,7 @@
 # Using Oracle Integration with Google BigQuery 
-
-![](/OIC/0.jpg)
+Solarized dark             |  Solarized Ocean
+:-------------------------:|:-------------------------:
+![](/OIC/a.png)  |          ![](/OIC/a.png)
 
 ## Introduction
 
