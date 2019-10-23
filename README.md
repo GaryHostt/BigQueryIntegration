@@ -1,12 +1,12 @@
 # Using Oracle Integration with Google BigQuery 
 
-Oracle Cloud Infrastructure  |  Google Cloud Platform
-:---------------------------:|:-------------------------:
-![](/OIC/a.png)              |  ![](/OIC/b.png)
+Oracle Cloud Infrastructure    |  Google Cloud Platform
+:-----------------------------:|:-------------------------:
+![](/OIC/a.png)                |  ![](/OIC/b.png)
 
 ## Introduction
 
-Users of the Google Cloud Platform are able to load data into BigQuery by putting files in Cloud Storage and then loading the data from there. You can also stream data into BigQuery with its API. This article will show how to use Oracle Integration to accomplish this task. 
+Users of the Google Cloud Platform are able to load data into BigQuery by [putting files in Cloud Storage and then loading the data from there.](https://cloud.google.com/bigquery/docs/loading-data-cloud-storage) You can also stream data into BigQuery with its API. This article will show how to use Oracle Integration to accomplish this task. 
 
 Click here to learn more about [Oracle Integration.](https://cloud.oracle.com/OIC)
 Click here to learn more about [streaming data into BigQuery.](https://cloud.google.com/bigquery/streaming-data-into-bigquery#bigquery_table_insert_rows-csharp)
@@ -284,5 +284,5 @@ You now have a REST endpoint to send information to your CPQ data table. In the 
 
 There is however one problem with how this was implemented, our Auth token expires after a few minutes. There is a way OIC can dynamically get the Auth token so that this doesn't happen - instead having to go back and paste the new auth token in the BigQuery REST connection. You can paste the [curl command here](https://cloud.google.com/sdk/gcloud/reference/auth/application-default/print-access-token) into your REST connection's security credentials (make sure you select OAuth Custom Two Legged Flow) in order to dynamically get the token. Further configuration is needed - but this is the main idea on how to dynamically do OAuth 2.0 in OIC. 
 
-If desired, you could also start this off with a REST endpoint, or an application trigger in order to stream data from events into your BigQuery data warehouse. You would simple start with an app-driven orchestration instead of a scheduled orchestration. 
+If desired, you could also start this off with a [REST endpoint](https://github.com/GaryHostt/ATPworkshop/blob/master/Lab200.md), or an [application trigger in order to stream data from events into your BigQuery data warehouse.](https://github.com/GaryHostt/OIC_SaaS_integration/blob/master/Lab200.md) You would simple start with an app-driven orchestration instead of a scheduled orchestration. 
 
