@@ -6,7 +6,7 @@ Oracle Cloud Infrastructure    |  Google Cloud Platform
 
 ## Introduction
 
-Users of the Google Cloud Platform are able to load data into BigQuery by [putting files in Cloud Storage and then loading the data from there.](https://cloud.google.com/bigquery/docs/loading-data-cloud-storage) You can also stream data into BigQuery with its API. This article will show how to use Oracle Integration to accomplish this task. 
+Users of the Google Cloud Platform are able to load data into BigQuery by [putting files in Cloud Storage and then loading the data from there.](https://cloud.google.com/bigquery/docs/loading-data-cloud-storage) You can also stream data into BigQuery with its API. This article will show how to use Oracle Integration to load data via the API. 
 
 Click here to learn more about [Oracle Integration.](https://cloud.oracle.com/OIC)
 Click here to learn more about [streaming data into BigQuery.](https://cloud.google.com/bigquery/streaming-data-into-bigquery#bigquery_table_insert_rows-csharp)
