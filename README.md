@@ -1,7 +1,8 @@
 # Using Oracle Integration with Google BigQuery 
 
-:-------------------------:|:-------------------------:
-![](/OIC/a.png)  |          ![](/OIC/b.png)
+Oracle Cloud Infrastructure  |  Google Cloud Platform
+:---------------------------:|:-------------------------:
+![](/OIC/a.png)              |  ![](/OIC/b.png)
 
 ## Introduction
 
