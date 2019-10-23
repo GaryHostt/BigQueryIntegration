@@ -230,13 +230,11 @@ Your mapper should look like this by the end.
 
 For hard coding, press the circled field. 
 
-
 ![](/OIC/31.png)
 
 In the box below, put "true". This is how the other hardcoded values are done. Press save on the upper right and then close on the bottom right to close. 
 
 To close the mapper, press validate then close on the upper right of the mapping screen. 
-
 
 ![](/OIC/32.png
 
@@ -246,11 +244,9 @@ Back on the orchestration screen, press the hamburger menu and then tracking.
 
 Drag and drop startTime from the left to the right. This value is how we will track each integration we run. Press save to close. Then press save and close on the upper right. 
 
-
 ![](/OIC/34.png)
 
 Back on the main screen, press the slider button.
-
 
 ![](/OIC/35.png)
 
@@ -258,12 +254,9 @@ Check mark enable tracking and including the payload, this can help with trouble
 
 Congrats! You have completed a scheduled integration that will read a .csv file from a FTP server. For each entry of that file, it will be uploaded as a row in your bigQuery table. 
 
-
 ## 5. Test & monitor the integration
 
-
 ![](/OIC/36.png)
-
 
 To test your integration, press the hamburger menu on the right and press submit now. 
 ![](/OIC/37.png)
@@ -273,12 +266,9 @@ To test your integration, press the hamburger menu on the right and press submit
 
 Click where the above screenshots are to get to tracking. You will see the time when you press submit now. 
 
-
 ![](/OIC/41.png)
 
 Hopefully your integration is all green - you can see how many rows were uplaoded to BigQuery, in my case - 40. 
-
-
 
 ![](/OIC/42.png)
 
@@ -290,5 +280,7 @@ You now have a REST endpoint to send information to your CPQ data table. In the 
 
 ![](/OIC/43.png)
 
-There is however one problem with how this was implemented, our Auth token expires after a few minutes. There is a way OIC can dynamically get the Auth token so that this doesn't happen - instead having to go back and paste the new auth token in the BigQuery REST connection. You can paste the [curl command here.](https://cloud.google.com/sdk/gcloud/reference/auth/application-default/print-access-token) into your REST connection's security credentials (make sure you select OAuth Custom Two Legged Flow) in order to dynamically get the token. Further configuration is needed - but this is the main idea on how to dynamically do OAuth 2.0 in OIC. 
+There is however one problem with how this was implemented, our Auth token expires after a few minutes. There is a way OIC can dynamically get the Auth token so that this doesn't happen - instead having to go back and paste the new auth token in the BigQuery REST connection. You can paste the [curl command here](https://cloud.google.com/sdk/gcloud/reference/auth/application-default/print-access-token) into your REST connection's security credentials (make sure you select OAuth Custom Two Legged Flow) in order to dynamically get the token. Further configuration is needed - but this is the main idea on how to dynamically do OAuth 2.0 in OIC. 
+
+If desired, you could also start this off with a REST endpoint, or an application trigger in order to stream data from events into your BigQuery data warehouse. You would simple start with an app-driven orchestration instead of a scheduled orchestration. 
 
