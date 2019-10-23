@@ -30,7 +30,7 @@ This is also how your integration will look at the end of the walkthrough.
 
 During the walkthrough, relevant instructions will be UNDER the picture they correlate with.
 
-Below is the poultry.csv file we will be using:
+Below is the poultry.csv file we will be using, or you can download the file from this repo:
 
 ```
 WH_ID,Item_Name,Item_id,Quantity_Available,Quantity_Requested,Backlog
