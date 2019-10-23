@@ -189,7 +189,7 @@ Now, just below your for each, press the plus sign and select your bigQuery conn
 
 ![](/OIC/26.png)
 
-Name your endpoint, change the resource URI to match your details. Make sure you have slected POST & check mark the boxes. Press next. 
+Name your endpoint, change the resource URI to match your details. Make sure you have slected POST & check mark the boxes. Press next. For the resource URI, you could actually enclose {tableid} and other parameters in brackets, and then dynamically pass those values. In the case where you need to send information to different tables, datasets, or projects in BigQuery.
 
 
 ![](/OIC/27.png)
