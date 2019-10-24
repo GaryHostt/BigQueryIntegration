@@ -144,6 +144,7 @@ Scroll down to configure security, select API Key Based Authentication and paste
 ![](/OIC/17.png)
 Press test and save. 
 ![](/OIC/18.png)
+
 Back on the connections screen, create a connection to your FTP server. Doing this depends on your FTP server, [click here for more info on using the FTP adapter.](https://docs.oracle.com/en/cloud/paas/integration-cloud-service/icsft/ftp-adapter-capabilities.html#GUID-59194DED-31DC-4E3D-893C-0064D7CC65A0). 
 
 ## 4. Create the integration
