@@ -279,7 +279,7 @@ Back in BigQuery, we can now see our uploaded data in the preview section of our
 
 ## Conclusion
 
-You now have a REST endpoint to send information to your CPQ data table. In the following labs we will show how to automatically send data from other applications to your CPQ data tables. 
+You have now created a REST endpoint that calls the BigQuery API. Next you can start applying further business logic, creating front ends, integrations with other systems, and much more!
 
 ![](/OIC/43.png)
 
