@@ -84,7 +84,7 @@ On the upper right of the screen, press the circled button and type this in your
 gcloud auth application-default print-access-token
 ```
 
-Save this token for later, or you can always come back and get it again with the same method. [Source.](https://cloud.google.com/sdk/gcloud/reference/auth/application-default/print-access-token)
+Save this token for later, or you can always come back and get it again with the same method. [Source1.](https://cloud.google.com/sdk/gcloud/reference/auth/application-default/print-access-token) [Authentication Improvements.](https://stackoverflow.com/questions/47059976/get-service-account-auth-token-without-gcloud)
 
 ## 2.	Test data loading in Postman
 
