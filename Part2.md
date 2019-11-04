@@ -192,5 +192,9 @@ The output in your terminal should look like this, if you do not get 200s, go to
 
 Returning to integration, we can see our data streaming now works. 
 
+![](/OIC2/33.png)
+
+Back in BigQuery, we can see our uploaded data. 
+
 
 
