@@ -277,6 +277,11 @@ Hopefully your integration is all green - you can see how many rows were uplaode
 
 Back in BigQuery, we can now see our uploaded data in the preview section of our table! 
 
+You can delete your data by running this SQL statement:
+```
+delete from DataLoad.OIC WHERE true;
+```
+
 ## Conclusion
 
 You have now created a REST endpoint that calls the BigQuery API. Next you can start applying further business logic, creating front ends, integrations with other systems, and much more!
