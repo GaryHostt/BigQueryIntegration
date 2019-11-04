@@ -292,4 +292,6 @@ There is however one problem with how this was implemented, our Auth token expir
 
 If desired, you could also start this off with a [REST endpoint](https://github.com/GaryHostt/ATPworkshop/blob/master/Lab200.md), or an [application trigger in order to stream data from events into your BigQuery data warehouse.](https://github.com/GaryHostt/OIC_SaaS_integration/blob/master/Lab200.md) You would simply start with an app driven orchestration instead of a scheduled orchestration. 
 
+To continue to part 2, where we use Python to stream data real-time to BigQuery, [click here.](https://github.com/GaryHostt/BigQueryIntegration/blob/master/Part2.md)
+
 Frenchtext, my projectid, originated from this [project.](https://github.com/GaryHostt/DailyNewsText)
