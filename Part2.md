@@ -28,7 +28,7 @@ This is also how your integration will look at the end of the walkthrough.
 
 During the walkthrough, relevant instructions will be UNDER the picture they correlate with.
 
-Below is the python script file we will be using, you will configure the authorization header and url to work with your OIC environment:
+Below is the python script file we will be using, you will configure the authorization header and url to work with your OIC environment; it was inspired by [this workshop.](https://github.com/GaryHostt/sampeIoTData)
 
 ```
 import json
