@@ -138,7 +138,7 @@ Press connections on the left of the new menu.
 ![](/OIC/14.png)
 From the top right press create and then select the REST adapter. 
 ![](/OIC/15.png)
-Input this base url. We will put the rest of the URL in the orchestration. 
+CORRECTION: [Input this base url](https://cloud.google.com/bigquery/docs/reference/rest/v2/tabledata/insertAll). We will put the rest of the URL in the orchestration. 
 ![](/OIC/16.png)
 Scroll down to configure security, select API Key Based Authentication and paste your previously used, or a new token. 
 ![](/OIC/17.png)
