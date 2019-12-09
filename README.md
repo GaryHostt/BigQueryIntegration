@@ -286,9 +286,14 @@ delete from DataLoad.OIC WHERE true;
 
 You have now created a REST endpoint that calls the BigQuery API. Next you can start applying further business logic, creating front ends, integrations with other systems, and much more!
 
-![](/OIC/43.png)
+![](/OIC2/41.png)
 
-There is however one problem with how this was implemented, our Auth token expires after a few minutes. There is a way [OIC can dynamically get the Auth token](https://docs.oracle.com/en/cloud/paas/integration-cloud/rest-api/Authorization_Types.html) so that this doesn't happen - instead having to go back and paste the new auth token in the BigQuery REST connection. Further configuration is needed - but this is the main idea on how to dynamically do OAuth 2.0 in OIC. [More information on Google Cloud Oauth2.](https://developers.google.com/identity/protocols/OAuth2ServiceAccount)
+There is however one problem with how this was implemented, our Auth token expires after a few minutes. There is a way [OIC can dynamically get the Auth token](https://docs.oracle.com/en/cloud/paas/integration-cloud/rest-api/Authorization_Types.html) so that this doesn't happen - instead having to go back and paste the new auth token in the BigQuery REST connection. 
+
+
+![](/OIC2/40.png)
+
+But before doing that, you must add your OIC tenancy as an authroized redirect URI in Google Cloud. [More information on Google Cloud Oauth2.](https://developers.google.com/identity/protocols/OAuth2ServiceAccount)
 
 If desired, you could also start this off with a [REST endpoint](https://github.com/GaryHostt/ATPworkshop/blob/master/Lab200.md), or an [application trigger in order to stream data from events into your BigQuery data warehouse.](https://github.com/GaryHostt/OIC_SaaS_integration/blob/master/Lab200.md) You would simply start with an app driven orchestration instead of a scheduled orchestration. 
 
