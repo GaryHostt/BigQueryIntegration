@@ -135,7 +135,7 @@ Then press send you you should get back a 200 OK. Now that this works, we know t
 Fomr the OIC home page, press integrations on the left. 
 ![](/OIC/13.png)
 Press connections on the left of the new menu. 
-![](/OIC/14.png)
+![](/OIC2/delta.png)
 From the top right press create and then select the REST adapter. 
 ![](/OIC/15.png)
 CORRECTION: [Input this base url](https://cloud.google.com/bigquery/docs/reference/rest/v2/tabledata/insertAll). We will put the rest of the URL in the orchestration. 
